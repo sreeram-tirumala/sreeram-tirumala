@@ -23,16 +23,17 @@ NLP classification pipeline trained on 40,000+ news articles from the ISOT datas
 - Real-time Streamlit dashboard with live prediction, confidence scores, and visual explanations
 
 **[Small Language Model Distillation](https://github.com/sreeram-tirumala/bloomington-guide)**
-Knowledge distillation pipeline compressing a Gemini-based teacher into a 1.7B-parameter student model.
+Knowledge distillation pipeline compressing a Gemini-based teacher into a 1.7B-parameter student model, deployed as a Flask web app for real-time user interaction.
 
 - Temperature-scaled logit matching across training batches
 - ~30% reduction in inference latency compared to the teacher
 - Evaluated on domain-specific benchmarks for factual accuracy and fluency retention
+- Served via Flask REST backend with end-to-end inference exposed to users in real time
 
 **[Global Coffee Trade Analytics](https://github.com/sreeram-tirumala/CoffeeDashboardAnalysis)**
 Thirty years of global coffee trade data (1990–2019) across 50+ countries, built collaboratively.
 
-- Interactive dashboard built with Python, Pandas, Plotly, and Dash
+- Interactive dashboard built with Python, Pandas, Plotly, Dash, and Tableau
 - 15+ charts covering export volumes, pricing trends, and bilateral trade flows
 - Surfaced pricing arbitrage patterns and supply-demand shifts across major producer-consumer pairs
 
@@ -49,6 +50,9 @@ Thirty years of global coffee trade data (1990–2019) across 50+ countries, bui
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
